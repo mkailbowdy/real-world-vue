@@ -29,6 +29,56 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": 101,
+      "category": "health",
+      "title": "Yoga in the Park",
+      "description": "Relax and rejuvenate with a morning yoga session.",
+      "location": "Greenfield Park",
+      "date": "May 5, 2022",
+      "time": "8:00",
+      "organizer": "Maya Pose"
+    },
+    {
+      "id": 202,
+      "category": "arts & crafts",
+      "title": "Pottery Workshop",
+      "description": "Learn the basics of pottery in this hands-on workshop.",
+      "location": "Clayville Studio",
+      "date": "August 18, 2022",
+      "time": "14:00",
+      "organizer": "Artie Spinner"
+    },
+    {
+      "id": 303,
+      "category": "music",
+      "title": "Summer Jazz Festival",
+      "description": "Enjoy live jazz performances by talented musicians.",
+      "location": "Harmony Hall",
+      "date": "June 10, 2022",
+      "time": "18:00",
+      "organizer": "Jazz Enthusiasts Association"
+    },
+    {
+      "id": 404,
+      "category": "technology",
+      "title": "Coding Bootcamp",
+      "description": "Learn programming basics in this weekend bootcamp.",
+      "location": "Tech Hub Center",
+      "date": "April 15, 2022",
+      "time": "9:00",
+      "organizer": "Code Masters"
+    },
+    {
+      "id": 505,
+      "category": "sports",
+      "title": "Charity Fun Run",
+      "description": "Participate in a 5K run to support local charities.",
+      "location": "Runners Park",
+      "date": "September 3, 2022",
+      "time": "7:00",
+      "organizer": "Active Hearts Foundation"
     }
   ]
 }
