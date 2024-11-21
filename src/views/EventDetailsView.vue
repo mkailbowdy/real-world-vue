@@ -1,13 +1,12 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import EventService from '@/services/EventService.js'
+import { onMounted, ref } from 'vue'
+import EventService from '@/services/EventService'
 
 const props = defineProps({
   id: {
     required: true,
   },
 })
-
 const event = ref(null)
 
 onMounted(() => {
@@ -20,7 +19,6 @@ onMounted(() => {
     })
 })
 </script>
-
 <template>
   <div v-if="event">
     <h1>{{ event.title }}</h1>

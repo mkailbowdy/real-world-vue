@@ -1,13 +1,14 @@
 <script setup>
-import { ref, onMounted } from 'vue'
 import EventCard from '@/components/EventCard.vue'
-import EventService from '@/services/EventService.js'
+import { ref, onMounted } from 'vue'
+import EventService from '@/services/EventService'
 
 const events = ref(null)
 
 onMounted(() => {
   EventService.getEvents()
     .then((response) => {
+      console.log('events:', response.data)
       events.value = response.data
     })
     .catch((error) => {
@@ -17,7 +18,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>Events For Good</h1>
+  <h1>Events for Good</h1>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
